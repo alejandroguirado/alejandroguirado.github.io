@@ -520,6 +520,19 @@ section {
   margin-right: 10px;
 }
 
+.resume .resume h3 {
+  margin: 20px 0 20px 0; /* want to change top margin */
+}
+
+.resume .resume h4 {
+  margin: 20px 0 20px 0; /* want to change top margin */
+}
+
+.resume .resume h5 {
+  margin: 20px 0 20px 0; /* want to change top margin */
+
+}
+
 .resume .resume ul i {
   font-size: 16px;
   margin-right: 5px;
