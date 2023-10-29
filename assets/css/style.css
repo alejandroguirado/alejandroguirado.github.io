@@ -682,6 +682,26 @@ section {
   bottom: 0;
 }
 
+
+
+.portfolio .portfolio ul {
+  list-style: none;
+  padding: 0;
+}
+
+.portfolio .portfolio ul li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+
+.portfolio .portfolio ul i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #149ddd;
+  line-height: 0;
+}
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
