@@ -468,7 +468,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Resume
+# Simulations
 --------------------------------------------------------------*/
 .resume .resume-title {
   font-size: 26px;
@@ -525,6 +525,11 @@ section {
   margin-right: 5px;
   color: #149ddd;
   line-height: 0;
+}
+
+.resume .resume img {
+  height: auto;
+  max-width: 100%;
 }
 
 
