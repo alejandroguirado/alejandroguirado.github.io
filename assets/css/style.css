@@ -489,7 +489,6 @@ section {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
-  text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   color: #050d18;
   margin-bottom: 10px;
@@ -530,7 +529,7 @@ section {
 
 .resume .resume h5 {
   margin: 20px 0 20px 0; /* want to change top margin */
-
+  text-align: center;
 }
 
 .resume .resume ul i {
@@ -560,6 +559,15 @@ section {
   top: 0;
   background: #fff;
   border: 2px solid #1f5297;
+}
+
+
+
+.resume_extra_ul ul i {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
