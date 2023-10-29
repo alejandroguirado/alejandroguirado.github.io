@@ -485,6 +485,17 @@ section {
   position: relative;
 }
 
+
+.resume .resume-item ul li {
+  margin-right: 10px;
+  position: relative;
+}
+.resume .resume-item p {
+  margin-right: 10px;
+  position: relative;
+}
+
+
 .resume .resume-item h4 {
   line-height: 18px;
   font-size: 18px;
