@@ -93,7 +93,7 @@
         <div class="section-title">
           <h2>Neutron Precise-High Measurements</h2>
           <p> Some of the challenges of High Energy Physics experiments are related to improve the sensitivity
-            of the detectors, velocity of data transer, trigger capabilities and other physical limitants for our
+            of the detectors, data transfer velocity, trigger capabilities and other physical limitants for our
             current
             technologies. The neutrons are very interesting particles to study due their importance in the baryonic
             matter
@@ -132,9 +132,8 @@
                         <mo>&#xB1;</mo>
                         <mn>0.0000005 </mn>
                         <msub>
-                          <mo> μ</mo>
-                          <mn>N </mn>
-
+                          <mo>μ</mo>
+                          <mn>N</mn>
                         </msub>
                       </math></span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Electric Dipole Moment:</strong> <span><math
@@ -183,9 +182,9 @@
             nEDM collaboration to simulate a full cycle of the experiment
             is the Monte Carlo Ultracold Neutron (<a
               href="https://www.dora.lib4ri.ch/psi/islandora/object/psi%3A4627/datastream/PDF2/Zsigmond-2018-The_MCUCN_simulation_code_for-%28accepted_version%29.pdf">MCUCN</a>).
-            The MCUCN is not public available, so I looked for other UCN Monte Carlo generators. The <a
+            MCUCN is not public available, so I looked for other UCN Monte Carlo generators. <a
               href="https://arxiv.org/pdf/1610.06358.pdf"> PENTrack</a> tool is used to simulate the
-            PENELOPE experiment. This experiment aims to measure the neutrons lifetime with better precision.
+            PENeLOPE experiment. This experiment aims to measure the neutron's lifetime with better precision.
             But, I use PENTrack to simulate ultracold neutrons storaged in the chamber, with the magnet ramped and
             without it.
           </p>
@@ -195,9 +194,9 @@
           <div class="col-lg-8 pt-4 pt-lg-0 resume" data-aos="fade-right">
             <h3> PENTrack</h3>
             <p>
-              The PENTrack package simulate the PENELOPE experiment. The detectors and relevant
+              The PENTrack package simulate the PENeLOPE experiment. The detectors and relevant
               surrounding materials are simulated by adding STL files with the proper sizes, dimensions and
-              forms. PENTrack share some of the setup with n2EDM because these 2 experiments use the ultacold
+              forms. PENTrack share some of the setup with n2EDM because these 2 experiments use the ultracold
               neutron method. Some of the STL files are:
             </p>
 
@@ -256,7 +255,10 @@
                     <span> The spectrum of UCN is cleaned for 200 s.</span>
                   </li>
                   <li>
-                    <span> The magnet is ramped for 100 s from 0T to XT.</span>
+                    <span> The magnet is ramped for 100 s from 0 T to 0.1<span><math
+                          xmlns="http://www.w3.org/1998/Math/MathML">
+                          <mo>μT.</mo>
+                        </math></span></span>
                   </li>
                   <li>
                     <span> Magnet is on for 300 s, it can be on up to 5000 s. The proton counter is activated.</span>
@@ -278,7 +280,7 @@
               </h4>
               <p>
                 Following the PENTrack documentation, two types of simulations were considered. The PENTrack Benchmark
-                and the full cycle PENELOPE experiment. All the simulations were done in a local cluster created
+                and the full cycle PENeLOPE experiment. All the simulations were done in a local cluster created
                 with //computer// running Ubuntu Server 22.04.
               </p>
             </div>
@@ -445,7 +447,7 @@
               <li>
                 This plot could show interesting results if the simulation had more data. More cuts could be done as
                 counting:
-                the UCNs after the magnet is on. Currently, all the UCNs end before 250s.
+                the UCNs after the magnet is on. Currently, all the UCNs end before 250 s.
               </li>
               <li>
                 Simulating sets of UCNs of 100, 1,000 and 3,000 a huge increment of computational
@@ -472,7 +474,7 @@
                 LFS are the interesting UCNs for PENeLOPE experiment, because with this polarization
                 the neutrons will stay inside the magnetized chamber. On the other case, the HFS
                 will be atracted to the chamber and absorbed.
-              
+
               </li>
               <li>
                 LFS are two order of magnitud greater than the HFS, because HFS travels through through
@@ -480,7 +482,7 @@
               </li>
               <li>
                 In this case, the 10,000 UCNs were enough to visualize the proper distribution for the UCNs in side the
-                PENeLOPE benchmark. 
+                PENeLOPE benchmark.
               </li>
             </ul>
             </p>
